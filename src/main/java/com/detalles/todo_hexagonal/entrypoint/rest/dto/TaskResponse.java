@@ -1,4 +1,4 @@
-package com.detalles.todo_hexagonal.infrastructure.adapter.in.rest.dto;
+package com.detalles.todo_hexagonal.entrypoint.rest.dto;
 
 import com.detalles.todo_hexagonal.domain.model.TaskStatus;
 import lombok.Builder;

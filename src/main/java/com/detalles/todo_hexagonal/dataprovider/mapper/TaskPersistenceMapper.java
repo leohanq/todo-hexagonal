@@ -1,7 +1,7 @@
-package com.detalles.todo_hexagonal.infrastructure.adapter.out.persistence.mapper;
+package com.detalles.todo_hexagonal.dataprovider.mapper;
 
 import com.detalles.todo_hexagonal.domain.model.Task;
-import com.detalles.todo_hexagonal.infrastructure.adapter.out.persistence.entity.TaskJpaEntity;
+import com.detalles.todo_hexagonal.dataprovider.entity.TaskJpaEntity;
 import org.springframework.stereotype.Component;
 
 @Component

@@ -1,9 +1,9 @@
-package com.detalles.todo_hexagonal.infrastructure.adapter.out.persistence;
+package com.detalles.todo_hexagonal.dataprovider;
 
-import com.detalles.todo_hexagonal.application.port.out.TaskRepositoryPort;
+import com.detalles.todo_hexagonal.dataprovider.repository.SpringDataTaskRepository;
+import com.detalles.todo_hexagonal.usecase.task.TaskPersistenceGateway;
 import com.detalles.todo_hexagonal.domain.model.Task;
-import com.detalles.todo_hexagonal.infrastructure.adapter.out.persistence.mapper.TaskPersistenceMapper;
-import com.detalles.todo_hexagonal.infrastructure.adapter.out.persistence.repository.SpringDataTaskRepository;
+import com.detalles.todo_hexagonal.dataprovider.mapper.TaskPersistenceMapper;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Repository;
@@ -14,7 +14,7 @@ import java.util.Optional;
 @Repository
 @RequiredArgsConstructor
 @Primary
-public class JpaTaskRepositoryAdapter implements TaskRepositoryPort {
+public class JpaTaskDataProvider implements TaskPersistenceGateway {
 
     private final SpringDataTaskRepository jpaTaskRepository;
     private final TaskPersistenceMapper taskPersistenceMapper;

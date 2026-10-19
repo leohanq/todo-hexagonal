@@ -1,13 +1,13 @@
-package com.detalles.todo_hexagonal.infrastructure.adapter.in.rest;
+package com.detalles.todo_hexagonal.entrypoint.rest;
 
-import com.detalles.todo_hexagonal.application.port.in.CompleteTaskUseCase;
-import com.detalles.todo_hexagonal.application.port.in.CreateTaskUseCase;
-import com.detalles.todo_hexagonal.application.port.in.GetTaskUseCase;
-import com.detalles.todo_hexagonal.application.port.in.ListTasksUseCase;
-import com.detalles.todo_hexagonal.application.port.in.ReopenTaskUseCase;
+import com.detalles.todo_hexagonal.usecase.task.CompleteTaskUseCase;
+import com.detalles.todo_hexagonal.usecase.task.CreateTaskUseCase;
+import com.detalles.todo_hexagonal.usecase.task.GetTaskUseCase;
+import com.detalles.todo_hexagonal.usecase.task.ListTasksUseCase;
+import com.detalles.todo_hexagonal.usecase.task.ReopenTaskUseCase;
 import com.detalles.todo_hexagonal.domain.model.Task;
-import com.detalles.todo_hexagonal.infrastructure.adapter.in.rest.dto.CreateTaskRequest;
-import com.detalles.todo_hexagonal.infrastructure.adapter.in.rest.dto.TaskResponse;
+import com.detalles.todo_hexagonal.entrypoint.rest.dto.CreateTaskRequest;
+import com.detalles.todo_hexagonal.entrypoint.rest.dto.TaskResponse;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

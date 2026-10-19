@@ -1,4 +1,4 @@
-package com.detalles.todo_hexagonal.infrastructure.adapter.in.rest;
+package com.detalles.todo_hexagonal.entrypoint.rest;
 
 import com.detalles.todo_hexagonal.domain.exception.TaskNotFoundException;
 import org.springframework.context.support.DefaultMessageSourceResolvable;
@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 @RestControllerAdvice
 public class GlobalExceptionHandler {

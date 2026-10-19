@@ -1,4 +1,4 @@
-package com.detalles.todo_hexagonal.infrastructure.adapter.out.persistence.entity;
+package com.detalles.todo_hexagonal.dataprovider.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

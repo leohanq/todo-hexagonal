@@ -1,4 +1,4 @@
-package com.detalles.todo_hexagonal.infrastructure.adapter.in.rest.dto;
+package com.detalles.todo_hexagonal.entrypoint.rest.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.Getter;

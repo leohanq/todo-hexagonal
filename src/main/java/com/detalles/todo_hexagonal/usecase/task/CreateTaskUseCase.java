@@ -1,4 +1,4 @@
-package com.detalles.todo_hexagonal.application.port.in;
+package com.detalles.todo_hexagonal.usecase.task;
 
 import com.detalles.todo_hexagonal.domain.model.Task;
 
